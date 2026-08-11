@@ -1,0 +1,13 @@
+package com.example.parking.dto.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class TicketRequest {
+    private Long vehicleId;
+    private Long zoneId;
+}
